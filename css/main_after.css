@@ -1,0 +1,277 @@
+@import  'bulma/css/bulma.css' ;
+html {
+  altura :  100 % ;
+}
+cuerpo {
+  posición : relativa;
+  fondo de relleno :  75 px ;
+  altura mínima :  100 % ;
+}
+. centro {
+  alineación de texto : centro;
+}
+/* encabezado */
+. encabezado_nav {
+  fondo :  gradiente lineal ( 90 grados ,  # fff  20 % ,  rgba ( 0 , 0 , 0 , .6 ) 60 % );
+  pantalla : flexible;
+  justificar contenido : espacio entre;
+  alinear elementos : estirar;
+  altura :  60 píxeles ;
+  posición : fija;
+  arriba :  0 ;
+  ancho :  100 % ;
+}
+. logotipo {
+  ancho :  120 píxeles ;
+  pantalla : flexible;
+  alinear elementos : centro;
+}
+. imagen del logotipo  {
+  ancho :  100 % ;
+}
+. navegación_global {
+  pantalla : flexible;
+  justificar-contenido : extremo flexible;
+  alinear elementos : estirar;
+}
+. global_nav_item {
+  relleno :  0  20 px ;
+  pantalla : flexible;
+  dirección flexible : columna;
+  justificar contenido : centro;
+  color :  #fff ; _
+  decoración de texto : ninguna;
+}
+. global_nav_item : flotar {
+  fondo :  #fff ; _
+  color :  # 42210b ;
+}
+/* pie de página */
+. pie de página {
+  ancho :  100 % ;
+  fondo :  # 251e19 ;
+  posición : absoluta;
+  abajo :  -75 px ;
+  fondo de relleno :  10 px ;
+  altura :  75 píxeles ;
+}
+. pie de página_nav {
+  pantalla : flexible;
+  justificar contenido : centro;
+  margen inferior :  10 px ;
+}
+. footer_nav_item {
+  relleno :  0  10 px ;
+  pantalla : flexible;
+  dirección flexible : columna;
+  justificar contenido : centro;
+  color blanco ;
+  decoración de texto : ninguna;
+  tamaño de fuente :  15 px ;
+}
+. logotipo_pie de página {
+  ancho :  80 píxeles ;
+}
+. pie de página_derecho {
+  color blanco ;
+  alineación de texto : centro;
+  tamaño de fuente :  10 px ;
+}
+/* キービジュアル */
+. llave {
+  altura :  500 píxeles ;
+  fondo : URL central / portada que no se repite ( "../images/sample_key.jpg" );
+  pantalla : flexible;
+  dirección flexible : columna;
+  justificar contenido : centro;
+  familia de fuentes :  'Noto Serif JP' , serif;
+}
+. clave  h1 {
+  tamaño de fuente :  2,5 rem ;
+}
+/* コンセプトセクション */
+. concepto_interior {
+  pantalla : flexible;
+  justificar contenido : espacio entre;
+}
+. contenido_concepto {
+  ancho :  60 % ;
+}
+. imagen_concepto {
+  ancho :  35 % ;
+}
+/* セクション共通 */
+. sección_interior {
+  relleno :  50 px  10 %  30 px ;
+}
+. sección de título {
+  familia de fuentes :  'Noto Serif JP' , serif;
+  alineación de texto : centro;
+  margen inferior :  50 px ;
+}
+/* 舗情報セクション */
+. información {
+  pantalla : flexible;
+}
+. título_información {
+  ancho :  80 píxeles ;
+}
+. área_marco {
+  posición : relativa;
+  ancho :  100 % ;
+  parte superior acolchada :  56,25 % ;
+}
+. marco_niño {
+  posición : absoluta;
+  arriba :  0 ;
+  derecha :  0 ;
+  ancho :  100 % ;
+  altura :  100 % ;
+}
+/* メニューセクション */
+. sección_menú {
+  fondo :  URL ( "../images/sample_menu_bg.jpg" ) parte inferior sin repetición;
+  adjunto de fondo : fijo;
+}
+. título_menú {
+  pantalla : bloque en línea;
+  familia de fuentes :  'Noto Serif JP' , serif;
+  alineación de texto : centro;
+  tamaño de fuente :  1,5 rem ;
+  color :  # 42210b ;
+  borde inferior : sólido # 42210b  1 px ;
+  margen inferior :  20 px ;
+}
+. menú_café {
+  fondo :  #fff ; _
+  relleno :  20 píxeles ;
+}
+. cafe_menu_list_item {
+  ancho :  49 % ;
+  pantalla : flexible;
+  dirección flexible : fila inversa;
+  alinear elementos : centro;
+  relleno :  10 píxeles ;
+}
+. cafe_menu_image {
+  ancho :  20 % ;
+  radio de frontera :  50 % ;
+}
+. cafe_menu_content {
+  ancho :  80 % ;
+  relleno :  10 píxeles ;
+}
+/* メニューページ */
+. tecla de menu {
+  altura :  100 píxeles ;
+  fondo :  URL ( "../images/sample_key.jpg" ) centro sin repetición;
+  tamaño de fondo : portada;
+}
+. envoltorio {
+  pantalla : flexible;
+}
+. principal {
+  relleno :  0  0  0  50 px ;
+  ancho :  calc ( 100 %  -  200 px );
+}
+/* メニューページ - サイドメニュー */
+. menú lateral {
+  ancho :  200 píxeles ;
+}
+. título_menú lateral {
+  familia de fuentes :  'Noto Serif JP' , serif;
+  tamaño de fuente :  25 px ;
+  relleno-izquierda :  10 px ;
+}
+. side_menu_item {
+  relleno :  20 px  10 px ;
+  borde inferior : sólido # 42210b  1 px ;
+  bloqueo de pantalla ;
+  decoración de texto : ninguna;
+}
+. side_menu_item : desplazarse {
+  fondo :  rgba ( 83 , 71 , 65 , .3 );
+}
+. anuncio_lateral {
+  color :  #fff ; _
+  fondo :  rgba ( 83 , 71 , 65 , .7 );
+  relleno :  20 píxeles ;
+  margen :  30 px  0 ;
+}
+/* メニューページ - メイン */
+. imagen_menú {
+  ancho :  100 % ;
+  altura :  500 píxeles ;
+  ajuste de objeto : cubierta;
+}
+. nombre_menú {
+  familia de fuentes :  'Noto Serif JP' , serif;
+}
+. precio_menú {
+  familia de fuentes :  'Noto Serif JP' , serif;
+  tamaño de fuente :  20 px ;
+  margen inferior :  30 px ;
+}
+. menú_panqueques {
+  fondo :  rgba ( 83 , 71 , 65 , .5 );
+  relleno :  20 píxeles ;
+  margen superior :  50 px ;
+}
+/*op*/
+. menú_panqueques . opción del menú {
+  ancho :  100 % ;
+}
+
+
+/* メニューアイテムコンポーネント */
+. lista_menú {
+  pantalla : flexible;
+  justificar contenido : espacio entre;
+  envoltura flexible : envoltura;
+}
+. menu_list_recomendado {
+  /* トップページのメニューリストには別途paddingの設定（マルチクラス） */
+  fondo de relleno :  50 px ;
+}
+. opción del menú {
+  ancho :  49 % ;
+  pantalla : flexible;
+  dirección flexible : fila inversa;
+  sombra de cuadro :  2 px  2 px  5 px  rgba ( 0 , 0 , 0 , 0,4 );
+  margen inferior :  20 px ;
+}
+. menu_item_content {
+  ancho :  45 % ;
+  relleno :  10 píxeles ;
+  pantalla : flexible;
+  dirección flexible : columna;
+  justificar contenido : espacio entre;
+  fondo :  #fff ; _
+}
+. menu_item_image {
+  ancho :  55 % ;
+  ajuste de objeto : cubierta;
+  altura :  300 píxeles ;
+}
+. menu_item_price {
+  color :  # 42210b ;
+  tamaño de fuente :  18 px ;
+  alineación de texto : derecha;
+}
+. menú_item_title {
+  tamaño de fuente :  18 px ;
+  familia de fuentes :  'Noto Serif JP' , serif;
+}
+/* ボタンコンポーネント */
+. pulsar {
+  relleno :  10 px  20 px ;
+  borde : ninguno;
+  radio del borde :  5 px ;
+}
+. btn-detalle {
+  fondo : # 2e58a6 ;
+  color :  #fff ; _
+}
+. btn-deshabilitado {
+  fondo :  rgba ( 0 , 0 , 0 , 0,3 );
+}
